@@ -1,5 +1,5 @@
 .speech {
-    font-family: 'Times New Roman', sans-serif; 
+    font-family:Arial, Helvetica, sans-serif; 
     font-size: 16px; 
     color: black;
 }
@@ -12,14 +12,20 @@
     transition: background-color 0.3s, color 0.3s; 
 }
 .direction:hover {
-    background-color: lightseagreen; 
-    color: white;
+    background-color:blanchedalmond; 
+    color:darkred;
 }
 
-.marina {
-    color: yellow;
+.name {
+    font-weight: bolder;
 }
 
-.astroff {
-    color: red;
+.MARINA {
+    color:darkgoldenrod;
 }
+
+.ASTROFF {
+    color:seagreen;
+}
+
+ 
