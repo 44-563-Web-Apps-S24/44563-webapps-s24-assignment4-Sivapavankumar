@@ -14,14 +14,15 @@
 .direction:hover {
     background-color:blanchedalmond; 
     color:darkred;
-
+}
 
 .name {
     font-weight: bolder;
-}
+} 
+
 
 .MARINA {
-    color:darkgoldenrod;
+    color:chartreuse;
 }
 
 .ASTROFF {
@@ -30,7 +31,6 @@
 
 .VOITSKI {
     color:midnightblue;
-}
 }
 table {
     border-color: black;
