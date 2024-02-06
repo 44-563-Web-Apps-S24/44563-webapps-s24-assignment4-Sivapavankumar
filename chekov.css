@@ -14,7 +14,7 @@
 .direction:hover {
     background-color:blanchedalmond; 
     color:darkred;
-}
+
 
 .name {
     font-weight: bolder;
@@ -25,7 +25,80 @@
 }
 
 .ASTROFF {
-    color:seagreen;
+    color:chocolate;
 }
 
- 
+.VOITSKI {
+    color:midnightblue;
+}
+}
+table {
+    border-color: black;
+    width: 50%;
+    text-align: center;
+    padding: 12px;
+    margin: 12px;
+}
+.col{
+    background-color:chartreuse;
+}
+
+th {
+    border: 1px solid;
+    border-radius: 5px;
+    border-color:darksalmon;
+    color:maroon;
+    height: 50px;
+}
+
+td {
+    border: 1px solid;
+    border-radius: 5px;
+    border-color:darkorange;
+    height: 50px;
+}
+
+tr:hover {
+    background-color:yellow;
+    border: 2px solid black; 
+}
+
+.MARINA:hover {
+    font-size: medium;
+    color:hotpink;
+    text-shadow:0 0 10px rgb(194, 120, 30);
+    border-style: dotted;
+    border-radius: 6px;
+}
+.ASTROFF:hover {
+    font-size: medium;
+    color:olivedrab;
+    text-shadow: 0 0 10px rgb(160, 156, 156);
+    border-style: dotted ;
+    border-radius: 6px;
+}
+.VOITSKI:hover {
+    font-size: medium;
+    color:cornflowerblue;
+    text-shadow:0 0 10px rgb(176, 88, 25);
+    border-style: dotted ;
+    border-radius: 6px;
+}
+    u1.navbar-horizontal {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        }
+    u1.navbar-horizontal li {
+        float:left;
+        color:limegreen;
+        background-color: deeppink;
+    }
+    u1.navbar-horizontal a {
+        display:block;
+        padding:8px;
+    }
+    u1.navbar-horizontal a:hover {
+        background-color: cornsilk;
+        color:purple;
+    }
