@@ -1,5 +1,5 @@
 .speech {
-    font-family:Arial, Helvetica, sans-serif; 
+    font-family: Arial, Helvetica, sans-serif; 
     font-size: 16px; 
     color: black;
 }
@@ -11,27 +11,28 @@
     background-color: lightgray; 
     transition: background-color 0.3s, color 0.3s; 
 }
+
 .direction:hover {
-    background-color:blanchedalmond; 
-    color:darkred;
+    background-color: blanchedalmond; 
+    color: darkred;
 }
 
 .name {
     font-weight: bolder;
 } 
 
-
 .MARINA {
-    color:chartreuse;
+    color: chartreuse;
 }
 
 .ASTROFF {
-    color:chocolate;
+    color: chocolate;
 }
 
 .VOITSKI {
-    color:midnightblue;
+    color: midnightblue;
 }
+
 table {
     border-color: black;
     width: 50%;
@@ -39,66 +40,73 @@ table {
     padding: 12px;
     margin: 12px;
 }
-.col{
-    background-color:chartreuse;
+
+.col {
+    background-color: chartreuse;
 }
 
 th {
     border: 1px solid;
     border-radius: 5px;
-    border-color:darksalmon;
-    color:maroon;
+    border-color: darksalmon;
+    color: maroon;
     height: 50px;
 }
 
 td {
     border: 1px solid;
     border-radius: 5px;
-    border-color:darkorange;
+    border-color: darkorange;
     height: 50px;
 }
 
 tr:hover {
-    background-color:yellow;
+    background-color: yellow;
     border: 2px solid black; 
 }
 
 .MARINA:hover {
     font-size: medium;
-    color:hotpink;
-    text-shadow:0 0 10px rgb(194, 120, 30);
+    color: hotpink;
+    text-shadow: 0 0 10px rgb(194, 120, 30);
     border-style: dotted;
     border-radius: 6px;
 }
+
 .ASTROFF:hover {
     font-size: medium;
-    color:olivedrab;
+    color: olivedrab;
     text-shadow: 0 0 10px rgb(160, 156, 156);
     border-style: dotted ;
     border-radius: 6px;
 }
+
 .VOITSKI:hover {
     font-size: medium;
-    color:cornflowerblue;
-    text-shadow:0 0 10px rgb(176, 88, 25);
+    color: cornflowerblue;
+    text-shadow: 0 0 10px rgb(176, 88, 25);
     border-style: dotted ;
     border-radius: 6px;
 }
-    u1.navbar-horizontal {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        }
-    u1.navbar-horizontal li {
-        float:left;
-        color:limegreen;
-        background-color: deeppink;
-    }
-    u1.navbar-horizontal a {
-        display:block;
-        padding:8px;
-    }
-    u1.navbar-horizontal a:hover {
-        background-color: cornsilk;
-        color:purple;
-    }
+
+ul.navbar-horizontal {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul.navbar-horizontal li {
+    float: left;
+    color: limegreen;
+    background-color: deeppink;
+}
+
+ul.navbar-horizontal a {
+    display: block;
+    padding: 8px;
+}
+
+ul.navbar-horizontal a:hover {
+    background-color: cornsilk;
+    color: purple;
+}
